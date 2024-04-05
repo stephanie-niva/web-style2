@@ -24,10 +24,12 @@
 }
 .summer{
     background-image: url(photos/openingimage.jpg);
+    background-size: 500px;
     height: 700px;
-    width: 550px;
+    width: 650px;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding: 100px;
+    
 }
 .insp-top{
     display: flex;
@@ -65,4 +67,52 @@
 .all-plants{
     font-size: xx-large;
     text-align: center;
+}
+.new-arrivals{
+    display: flex;
+    margin-left: 150px;
+}
+.arrivals1{
+    display: flex;
+}
+.arrivals2{
+    display: flex;
+}
+.button{
+    background-color: rgb(121, 148, 80);
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 12px;
+    border-color: rgb(169, 187, 141);
+    font-size: x-large;
+}
+.featured{
+    text-align: center;
+    padding-top: 20px;
+}
+.bestproducts{
+    text-align: center;
+    color: rgb(124, 145, 92);
+    padding-bottom: 20px;
+}
+.tree-bottle{
+    display: flex;
+    margin-left: 250px;
+}
+.tree-bottle-words{
+    background-color: azure;
+    width: 700px;
+    height: 600px;
+    text-align: center;
+    font-size: larger;
+}
+.living-thing{
+    background-image: url(photos/monstera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    margin: 100px;
+    font-size: larger;
+    font-weight: 300;
 }

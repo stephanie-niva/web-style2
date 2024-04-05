@@ -19,16 +19,17 @@
 }
 .collection{
     display: flex;
-    justify-content: space-around;
+    margin-left: 200px;
 
 }
 .summer{
     background-image: url(photos/openingimage.jpg);
-    background-size: 500px;
+    background-size: 470px;
     height: 700px;
     width: 650px;
     background-repeat: no-repeat;
     padding: 100px;
+    font-size: x-large;
     
 }
 .insp-top{
@@ -116,3 +117,18 @@
     font-size: larger;
     font-weight: 300;
 }
+.amazing-spring{
+    display: flex;
+    margin-left: 100px;
+}
+.cactus-tree{
+    display: flex;
+}
+.cactus-tree-word{
+    background-color: azure;
+    height:500px ;
+    width:600px ;
+    text-align: center;
+    margin-left: 200px;
+}
+

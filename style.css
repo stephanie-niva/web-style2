@@ -1,0 +1,68 @@
+.welcome{
+    background-color: rgb(119, 145, 75);
+    height: 50px;
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    color: aliceblue;
+
+}
+.navbar{
+    background-color: antiquewhite;
+    height: 60px;
+    width: 1800px;
+    display: flex;
+    justify-content: space-around;
+}
+.collection{
+    display: flex;
+    justify-content: space-around;
+
+}
+.summer{
+    background-image: url(photos/openingimage.jpg);
+    height: 700px;
+    width: 550px;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.insp-top{
+    display: flex;
+    justify-content: space-around;
+}
+.insp-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.insp-words{
+    background-color: azure;
+    height: 300px;
+    width:300px ;
+
+}
+.sale{
+    display: flex;
+    
+}
+.sale1{
+    display: flex;
+}
+.sale2{
+    display: flex;
+}
+.sale3{
+    display: flex;
+}
+.sale-words{
+    background-color: azure;
+    height: 400px;
+    width:300px ;
+    text-align: center;
+}
+.all-plants{
+    font-size: xx-large;
+    text-align: center;
+}

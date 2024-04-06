@@ -24,13 +24,17 @@
 }
 .summer{
     background-image: url(photos/openingimage.jpg);
-    background-size: 470px;
-    height: 700px;
-    width: 650px;
+    background-size: 600px 650px;
+    width: 600px;
+    height: 600px;
     background-repeat: no-repeat;
+    font-size: xx-large;
     padding: 100px;
-    font-size: x-large;
-    
+   
+}
+.inspirational-right{
+    margin-right: 200px;
+    height: 650px;
 }
 .insp-top{
     display: flex;
@@ -44,6 +48,7 @@
     background-color: azure;
     height: 300px;
     width:300px ;
+    font-size: large;
 
 }
 .sale{
@@ -119,7 +124,7 @@
 }
 .amazing-spring{
     display: flex;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .cactus-tree{
     display: flex;
@@ -130,5 +135,228 @@
     width:600px ;
     text-align: center;
     margin-left: 200px;
+    margin-top: 100px;
 }
+.latest{
+    padding: 30px 200px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.fromblog{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+.clients{
+    padding: 30px 200px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.green{
+    text-align: center;
+    font-size: large;
+    color: rgb(0, 155, 13);
+}
+.clients-image{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px;
+}
+.client{
+    border-radius: 20px;
+}
+.Devloper{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+    margin: 100px;
+}
+@media all and (min-width: 280px)
+    and(max-width: 1030px){
+        .welcome{
+            background-color: rgb(119, 145, 75);
+            height: 50px;
+            width: 1800px;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 300;
+            padding-top: 10px;
+            color: aliceblue;
+        
+        }
+        .navbar{
+            background-color: antiquewhite;
+            height: 60px;
+            width: 1800px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .collection{
+            display: flex;
+            margin-left: 200px;
+        
+        }
+        .summer{
+            background-image: url(photos/openingimage.jpg);
+            background-size: 600px 650px;
+            width: 600px;
+            height: 600px;
+            background-repeat: no-repeat;
+            font-size: xx-large;
+            padding: 100px;
+           
+        }
+        .inspirational-right{
+            margin-right: 200px;
+            height: 650px;
+        }
+        .insp-top{
+            display: flex;
+            justify-content: space-around;
+        }
+        .insp-bottom{
+            display: flex;
+            justify-content: space-around;
+        }
+        .insp-words{
+            background-color: azure;
+            height: 300px;
+            width:300px ;
+            font-size: large;
+        
+        }
+        .sale{
+            display: flex;
+            
+        }
+        .sale1{
+            display: flex;
+        }
+        .sale2{
+            display: flex;
+        }
+        .sale3{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .sale-words{
+            background-color: azure;
+            height: 400px;
+            width:300px ;
+            text-align: center;
+        }
+        .all-plants{
+            font-size: xx-large;
+            text-align: center;
+        }
+        .new-arrivals{
+            display: flex;
+            margin-left: 50px;
+            flex-wrap: wrap;
+        }
+        .arrivals1{
+            display: flex;
+        }
+        .arrivals2{
+            display: flex;
+        }
+        .button{
+            background-color: rgb(121, 148, 80);
+            padding: 15px;
+            color: aliceblue;
+            border-radius: 12px;
+            border-color: rgb(169, 187, 141);
+            font-size: x-large;
+        }
+        .featured{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .bestproducts{
+            text-align: center;
+            color: rgb(124, 145, 92);
+            padding-bottom: 20px;
+        }
+        .tree-bottle{
+            display: flex;
+            margin-left: 250px;
+        }
+        .tree-bottle-words{
+            background-color: azure;
+            width: 700px;
+            height: 600px;
+            text-align: center;
+            font-size: larger;
+        }
+        .living-thing{
+            background-image: url(photos/monstera.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 450px;
+            text-align: center;
+            margin: 100px;
+            font-size: larger;
+            font-weight: 300;
+        }
+        .amazing-spring{
+            display: flex;
+            margin-left: 200px;
+        }
+        .cactus-tree{
+            display: flex;
+        }
+        .cactus-tree-word{
+            background-color: azure;
+            height:500px ;
+            width:600px ;
+            text-align: center;
+            margin-left: 200px;
+            margin-top: 100px;
+        }
+        .latest{
+            padding: 30px 200px;
+            font-size: 50px;
+            font-weight: 500;
+        }
+        .fromblog{
+            display: flex;
+            justify-content: space-around;
+            margin: 70px;
+        }
+        .clients{
+            padding: 30px 200px;
+            font-size: 50px;
+            font-weight: 500;
+            text-align: center;
+        }
+        .green{
+            text-align: center;
+            font-size: large;
+            color: rgb(0, 155, 13);
+        }
+        .clients-image{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px;
+        }
+        .client{
+            border-radius: 20px;
+        }
+        .Devloper{
+            text-align: center;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-around;
+            background-color: azure;
+            margin: 100px;
+        }  
 
+    }
+    
